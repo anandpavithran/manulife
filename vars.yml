@@ -9,5 +9,5 @@ NetworkSecurityGroup: xyz1-security
 vm_name: xyz1-vm
 vm_size: Standard_D4s_v3
 admin_user: azure-admin
-admin_pswd: azure-@$m1n
+admin_pswd: azure-@m1n
      ...
