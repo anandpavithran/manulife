@@ -26,7 +26,7 @@
   - name: Add subnet
     azure_rm_subnet:
       resource_group: "{{ resource_group_name }}"
-      name: "{{ submet }}"
+      name: "{{ subnet }}"
       address_prefix: "10.0.1.0/24"
       virtual_network: "{{ v_network }}"
   - name: Create public IP address
@@ -54,7 +54,7 @@
       resource_group: "{{ resource_group_name }}"
       name: "{{ NIC }}"
       virtual_network: "{{ v_network }}"
-      subnet: "{{ submet }}"
+      subnet: "{{ subnet }}"
       public_ip_name: "{{ publicip }}"
       security_group: "{{ NetworkSecurityGroup }}"
   - name: Create VM
