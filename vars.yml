@@ -4,6 +4,7 @@ location: eastus2
 v_network: xyz1-net
 subnet: xyz1-sub-net
 publicip: 10.0.0.1 
+NIC: xyz1-nic
 NetworkSecurityGroup: xyz1-security
 vm_name: xyz1-vm
 vm_size: 40Gi
