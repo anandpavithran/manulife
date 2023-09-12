@@ -1,6 +1,6 @@
 ---
 resource_group_name: xyz1
-location: useast2 
+location: eastus2
 v_network: xyz1-net
 subnet: xyz1-sub-net
 publicip: 10.0.0.1 
