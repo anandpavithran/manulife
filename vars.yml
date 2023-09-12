@@ -7,7 +7,7 @@ publicip: 10.0.0.1
 NIC: xyz1-nic
 NetworkSecurityGroup: xyz1-security
 vm_name: xyz1-vm
-vm_size: 40Gi
+vm_size: Standard_D4s_v3
 admin_user: azure-admin
 admin_pswd: azure-admin
      ...
