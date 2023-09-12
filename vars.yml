@@ -1,11 +1,11 @@
 ---
-resource_group_name: test1
+resource_group_name: xyz1
 location: useast2 
-v_network: test1-net
-subnet: test1-sub-net
+v_network: xyz1-net
+subnet: xyz1-sub-net
 publicip: 10.0.0.1 
-NetworkSecurityGroup: test1-security
-vm_name: test1-vm
+NetworkSecurityGroup: xyz1-security
+vm_name: xyz1-vm
 vm_size: 40Gi
 admin_user: azure-admin
 admin_pswd: azure-admin
