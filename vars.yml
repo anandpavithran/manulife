@@ -1,12 +1,12 @@
 ---
-resource_group_name: xyz1
+resource_group_name: xyz2
 location: eastus2
-v_network: xyz1-net
-subnet: xyz1-sub-net
+v_network: xyz2-net
+subnet: xyz2-sub-net
 publicip: 10.0.0.1 
-NIC: xyz1-nic
-NetworkSecurityGroup: xyz1-security
-vm_name: xyz1-vm
+NIC: xyz2-nic
+NetworkSecurityGroup: xyz2-security
+vm_name: xyz2-vm
 vm_size: Standard_D4s_v3
 admin_user: azure-admin
 admin_pswd: azure-@m1n
